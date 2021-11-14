@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "970730975990",
+    "project_id": "rc-project-e478a",
+    "storage_bucket": "rc-project-e478a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970730975990:android:e3c60e114a2a948c5032d7",
+        "android_client_info": {
+          "package_name": "com.ankitk10r.finalprojectofhackthone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970730975990-4o1hunl43j8hm6q79kll81blfbud6ru6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC13f83YONVcwQvaCe_CZf--ij_IkcrPWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970730975990-4o1hunl43j8hm6q79kll81blfbud6ru6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

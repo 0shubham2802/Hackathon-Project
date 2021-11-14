@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".Tablayout.Fragement.profile.ProfileFragment" >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_launcher_background"
+        app:civ_border_width="1dp"
+        app:civ_border_color="@color/purple_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:text="personal Info"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:drawablePadding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:drawableLeftCompat="@drawable/ic_outline_personal_24" />
+
+    <LinearLayout
+        android:id="@+id/personalInfoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="10dp"
+                android:maxLines="1"
+                android:padding="3dp"
+                android:text="Name: "
+                android:textColor="@color/purple_700"
+                android:textSize="14sp"
+                app:drawableLeftCompat="@drawable/ic_outline_person_outline_24" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="10dp"
+                android:maxLines="1"
+                android:padding="3dp"
+                android:text="Ankit Kumar"
+                android:textColor="@color/purple_700"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="10dp"
+                android:maxLines="1"
+                android:padding="3dp"
+                android:text="Email: "
+                android:textColor="@color/purple_700"
+                android:textSize="14sp"
+                app:drawableLeftCompat="@drawable/ic_outline_email_24" />
+            <TextView
+                android:id="@+id/emailField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="10dp"
+                android:maxLines="1"
+                android:padding="3dp"
+                android:text="AnkitKumar@gmail.com"
+                android:textColor="@color/purple_700"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/phNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="10dp"
+                android:maxLines="1"
+                android:padding="3dp"
+                android:text="Phone no: "
+                android:textColor="@color/purple_700"
+                android:textSize="14sp"
+                app:drawableLeftCompat="@drawable/ic_outline_call_24" />
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="10dp"
+                android:maxLines="1"
+                android:padding="3dp"
+                android:text="7845129630"
+                android:textColor="@color/purple_700"
+                android:textSize="14sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Truck Info"
+        android:layout_marginStart="16dp"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/personalInfoLayout"
+        app:drawableLeftCompat="@drawable/ic_logistics_delivery_truck_in_movement_svgrepo_com" />
+
+    <LinearLayout
+        android:id="@+id/truck_Info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/truckNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="10dp"
+                android:maxLines="1"
+                android:padding="3dp"
+                android:text="Truck No: "
+                android:textColor="@color/purple_700"
+                android:textSize="14sp"
+                app:drawableLeftCompat="@drawable/ic_baseline_local_shipping_24" />
+
+            <TextView
+                android:id="@+id/Truck_No"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="10dp"
+                android:maxLines="1"
+                android:padding="3dp"
+                android:text="5BH12A4512"
+                android:textColor="@color/purple_700"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/pollution"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="10dp"
+                android:maxLines="1"
+                android:padding="3dp"
+                android:text="Pollution: "
+                android:textColor="@color/purple_700"
+                android:textSize="14sp"
+                app:drawableLeftCompat="@drawable/ic_air_quality_control_management_environment_ecology_purifier_pollution_svgrepo_com" />
+
+            <TextView
+                android:id="@+id/pollutionQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="10dp"
+                android:maxLines="1"
+                android:padding="3dp"
+                android:text="145"
+                android:textColor="@color/purple_700"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/RC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="10dp"
+                android:maxLines="1"
+                android:padding="3dp"
+                android:text="RC no: "
+                android:textColor="@color/purple_700"
+                android:textSize="14sp"
+                app:drawableLeftCompat="@drawable/ic_outline_personal_24" />
+
+            <TextView
+                android:id="@+id/RCnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="10dp"
+                android:maxLines="1"
+                android:padding="3dp"
+                android:text="7845129630"
+                android:textColor="@color/purple_700"
+                android:textSize="14sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/insurance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="10dp"
+                android:maxLines="1"
+                android:padding="3dp"
+                android:text="Insurance no: "
+                android:textColor="@color/purple_700"
+                android:textSize="14sp"
+                app:drawableLeftCompat="@drawable/ic_outline_personal_24" />
+
+            <TextView
+                android:id="@+id/insuranceNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:drawablePadding="10dp"
+                android:maxLines="1"
+                android:padding="3dp"
+                android:text="7845129630"
+                android:textColor="@color/purple_700"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:background="@drawable/custom_textview_700_ripple"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/truck_Info" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
